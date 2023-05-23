@@ -1,0 +1,50 @@
+
+body {
+    background-color: #1E1E1E;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica;
+    min-height: 100vh;
+    gap: 2rem;
+
+    .header {
+        font-size: 3rem;
+        color: #2370ff;
+    }
+
+    .body {
+        font-size: 1.2rem;
+        color: #b4bdce;
+    }
+
+    .btn {
+        width: 200px;
+        height: 50px;
+        align-self: center;
+        background-color: #0f33ff;
+        color: white;
+        border-radius: 15px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #2e4eff;
+            box-shadow: 0 5px 10px #1d1d1d;
+        }
+
+        &:active {
+            background-color: #112cc5;
+            box-shadow: 0 5px 3px black;
+        }
+    }
+
+    .message {
+        color: white;
+    }
+}
